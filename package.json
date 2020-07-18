@@ -1,0 +1,26 @@
+{
+  "name": "package-json-types",
+  "version": "1.0.0",
+  "description": "TypeScript/typings for package.json content",
+  "author": "Markus Hahn",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhahn-c/package-json-types.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "clean": "rm -rf build"
+  },
+  "files": [
+    "build/*",
+    "README.md",
+    "LICENSE"
+  ]
+}
