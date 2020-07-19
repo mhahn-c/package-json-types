@@ -1,6 +1,6 @@
 {
   "name": "package-json-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript/typings for package.json content",
   "author": "Markus Hahn",
   "main": "build/index.js",
